@@ -10,22 +10,5 @@
 # you will need to provide at least an empty dict in this file, e.g.
 # osarch: {}
 ---
-Leap-15:
-  aarch64:
-    repository:
-      name: wireguard
-      humanname: Wireguard VPN
-      baseurl: https://download.opensuse.org/repositories/network:/vpn:/wireguard/openSUSE_Leap_15.1_ARM
-      gpgautoimport: True
-      gpgkey: https://download.opensuse.org/repositories/network:/vpn:/wireguard/openSUSE_Leap_15.1/repodata/repomd.xml.key
-      gpgcheck: 1
-  x86_64:
-    repository:
-      name: wireguard
-      humanname: Wireguard VPN
-      baseurl: https://download.opensuse.org/repositories/network:/vpn:/wireguard/openSUSE_Leap_15.1
-      gpgautoimport: True
-      gpgkey: https://download.opensuse.org/repositories/network:/vpn:/wireguard/openSUSE_Leap_15.1/repodata/repomd.xml.key
-      gpgcheck: 1
 default:
   default: {}

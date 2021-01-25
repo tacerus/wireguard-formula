@@ -36,7 +36,6 @@ Amazon Linux AMI-2018: {}
 Leap-15:
   packages:
     - wireguard-tools
-    - wireguard-kmp-default
 
 # os: FreeBSD
 FreeBSD-12: {}
